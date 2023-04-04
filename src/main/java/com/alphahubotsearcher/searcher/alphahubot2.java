@@ -52,5 +52,6 @@ public class alphahubot2 extends JavaPlugin implements Listener {
             }
 
             MiraiBot.getBot(var1.getBotID()).getGroup(var1.getGroupID()).sendMessage("目前在线玩家: " + var3);
-     }
+        }
+    }
 }
