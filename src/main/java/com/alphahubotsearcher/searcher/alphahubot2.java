@@ -1,14 +1,13 @@
 package com.alphahubotsearcher.searcher;
 
 import me.dreamvoid.miraimc.api.MiraiBot;
-import me.dreamvoid.miraimc.bukkit.event.MiraiFriendMessageEvent;
-import me.dreamvoid.miraimc.bukkit.event.MiraiGroupMessageEvent;
+import me.dreamvoid.miraimc.bukkit.event.message.passive.MiraiGroupMessageEvent;
 import org.bukkit.Bukkit;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.plugin.java.JavaPlugin;
 
-public class alphahubot extends JavaPlugin implements Listener {
+public class alphahubot2 extends JavaPlugin implements Listener {
 
     @Override // 加载插件
     public void onLoad() { }
