@@ -9,7 +9,7 @@ import org.bukkit.ChatColor;
 import org.bukkit.plugin.java.JavaPlugin;
 
 public final class AlphahuBot2 extends JavaPlugin {
-    public AlphahuBot() {
+    public AlphahuBot2() {
     }
 
     public void onEnable() {
