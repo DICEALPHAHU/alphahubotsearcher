@@ -1,4 +1,4 @@
-package com.example.demo;
+package com.alphahubotsearcher.searcher;
 
 import me.dreamvoid.miraimc.api.MiraiBot;
 import me.dreamvoid.miraimc.bukkit.event.MiraiFriendMessageEvent;
@@ -21,17 +21,11 @@ public class CommandExample extends JavaPlugin implements Listener {
     @Override // 禁用插件
     public void onDisable() { }
 
-    @EventHandler
-    public void onFriendMessageReceive(MiraiFriendMessageEvent e){
-        if(e.getMessage().equals("在线人数")) {
-            MiraiBot.getBot(e.getBotID()).getFriend(e.getSenderID()).sendMessage("当前在线人数：" + Bukkit.getServer().getOnlinePlayers().size()+"人");
-        }
-    }
 
     @EventHandler
     public void onGroupMessageReceive(MiraiGroupMessageEvent e){
-        if(e.getMessage().equals("在线人数")) {
-            MiraiBot.getBot(e.getBotID()).getGroup(e.getGroupID()).sendMessage("当前在线人数：" + Bukkit.getServer().getOnlinePlayers().size()+"人");
+        if(e.getMessage().equals("#卫星地图")) {
+            MiraiBot.getBot(e.getBotID()).getGroup(e.getGroupID()).sendMessage("why13700.com:37885");
         }
     }
 }
