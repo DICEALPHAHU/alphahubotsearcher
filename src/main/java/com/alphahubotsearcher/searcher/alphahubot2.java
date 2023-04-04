@@ -16,13 +16,13 @@ public class alphahubot2 extends JavaPlugin implements Listener {
 
     @Override // 启用插件
     public void onEnable() {        
-        this.getServer().getConsoleSender().sendMessage(ChatColor.YELLOW + "[AlphahuBotSearcher]插件已成功启动，本插件由DICEALPHAHU制作");
+        this.getServer().getConsoleSender().sendMessage(ChatColor.YELLOW + "AlphahuBotSearcher is running, created by DICEALPHAHU");
         this.getServer().getPluginManager().registerEvents(new MessageListener(), this);
     }
 
     @Override // 禁用插件
     public void onDisable() {
-        this.getServer().getConsoleSender().sendMessage(ChatColor.YELLOW + "[AlphahuBotSearcher]插件已卸载");
+        this.getServer().getConsoleSender().sendMessage(ChatColor.YELLOW + "AlphahuBotSearcher was disabled");
     }
 
 
