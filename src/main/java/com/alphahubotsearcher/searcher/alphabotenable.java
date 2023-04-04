@@ -3,12 +3,12 @@
 // (powered by FernFlower decompiler)
 //
 
-package com.alphahubotsearcher.searcher.alphahubot;
+package com.alphahubotsearcher.searcher.alphahubot2;
 
 import org.bukkit.ChatColor;
 import org.bukkit.plugin.java.JavaPlugin;
 
-public final class AlphahuBot extends JavaPlugin {
+public final class AlphahuBot2 extends JavaPlugin {
     public AlphahuBot() {
     }
 
